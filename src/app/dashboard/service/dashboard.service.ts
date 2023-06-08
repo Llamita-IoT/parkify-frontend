@@ -7,7 +7,7 @@ import {Slot} from "../model/Slot";
 })
 export class DashboardService {
   //Dashboard Endpoint
-  basePath = "http://localhost:3000/api/v1/dashboard";
+  basePath = "http://localhost:3000/slot";
 
   httpOptions = {
     headers: new HttpHeaders({

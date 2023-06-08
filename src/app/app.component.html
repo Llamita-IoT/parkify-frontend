@@ -1,7 +1,8 @@
 <mat-toolbar color="primary">
-  <h1>Parkify</h1>
+  <img src="./assets/picture/logo.png" alt="Parkify" id="logo">
   <div class="mat-spacer"></div>
   <!-- Application Options -->
-  <a mat-button [routerLink]="'/dashboard'">Home</a>
+  <a mat-button [routerLink]="'/dashboard'"><mat-icon>home</mat-icon></a>
+  <a mat-button [routerLink]="'/dashboard'"><mat-icon>person</mat-icon></a>
 </mat-toolbar>
 <router-outlet></router-outlet>

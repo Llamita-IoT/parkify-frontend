@@ -1,12 +1,10 @@
 import {AfterViewInit, Component, OnInit, ViewChild} from '@angular/core';
 import {Slot} from "../../model/Slot";
-import {MatLegacyTableDataSource} from "@angular/material/legacy-table";
 import {NgForm} from "@angular/forms";
 import {MatPaginator} from "@angular/material/paginator";
 import {MatSort} from "@angular/material/sort";
 import {MatTableDataSource} from "@angular/material/table";
 import {DashboardService} from "../../service/dashboard.service";
-import {getXHRResponse} from "rxjs/internal/ajax/getXHRResponse";
 
 @Component({
   selector: 'app-dashboard',
@@ -18,11 +16,11 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   slotData: Slot;
   dataSource: MatTableDataSource<any>;
   displayedColumns: string[] = [
-    'ID',
-    'Status',
-    'Last Change',
-    'User',
-    'Historial'
+    'id',
+    'status',
+    'lastChange',
+    'driver',
+    'historial'
   ];
 
   @ViewChild('slotForm', {static: false})
@@ -46,6 +44,14 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
+  }
+
+  addSlot() {
+    this.slotData.id = 0;
+    this.dashboardService.createSlot(this.slotData).subscribe((response: any) => {
+      this.dataSource.data.push({...response});
+      this.dataSource.data = this.dataSource.data.map((o: any) => {return o;});
+    });
   }
 
   getAllSlots(){

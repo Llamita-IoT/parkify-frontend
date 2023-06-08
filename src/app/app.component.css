@@ -1,3 +1,8 @@
 .mat-spacer{
   flex: 1 1 auto;
 }
+
+#logo{
+  margin-left: 0;
+  padding-left: 0;
+}
