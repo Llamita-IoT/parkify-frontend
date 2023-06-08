@@ -20,7 +20,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   displayedColumns: string[] = [
     'ID',
     'Status',
-    'Last Change',
+    'LastChange',
     'User',
     'Historial'
   ];
