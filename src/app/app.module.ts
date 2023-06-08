@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DashboardComponent } from './dashboard/pages/dashboard/dashboard.component';
 import {MatToolbarModule} from "@angular/material/toolbar";
@@ -20,6 +21,7 @@ import {MatPaginatorModule} from "@angular/material/paginator";
     DashboardComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
