@@ -1,0 +1,32 @@
+<div class="table-wrapper">
+  <h1>Hi, </h1>
+  <h1>Your Table Slots about your Parking service</h1>
+  <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>ID</th>
+      <td mat-cell *matCellDef="let element">{{element.id}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="status">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Status</th>
+      <td mat-cell *matCellDef="let element">{{element.status}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="lastChange">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Last Change</th>
+      <td mat-cell *matCellDef="let element">{{element.lastChange}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="driver">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>User</th>
+      <td mat-cell *matCellDef="let element">{{element.driver}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="historial">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Historial</th>
+      <td><mat-icon>history</mat-icon></td>
+    </ng-container>
+  </table>
+
+  <mat-paginator [pageSize]="10" [pageSizeOptions]="[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]" showFirstLastButtons></mat-paginator>
+</div>
