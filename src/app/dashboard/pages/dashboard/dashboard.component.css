@@ -10,3 +10,7 @@ table {
 tr.editable-row {
   background-color: lightskyblue;
 }
+
+body{
+  color: darkgray;
+}

@@ -14,6 +14,9 @@ import {MatTableModule} from "@angular/material/table";
 import {MatSortModule} from "@angular/material/sort";
 import {MatIconModule} from "@angular/material/icon";
 import {MatPaginatorModule} from "@angular/material/paginator";
+//import { ManagerProfileComponent } from './manager-profile/manager-profile/manager-profile.component';
+//import {MatCardModule} from "@angular/material/card";
+//import {MatListModule} from "@angular/material/list";
 
 @NgModule({
   declarations: [

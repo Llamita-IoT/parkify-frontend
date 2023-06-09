@@ -1,13 +1,364 @@
 {
-  "slot": [
+  "slots": [
     {
       "id": 1,
-      "driver": "Barack Obama",
-      "status": "Busy",
+      "driver": "nothing",
+      "status": "Available",
       "lastChange": "06/06/23-20:21:54",
-      "startTime": "06/06/23-20:21:54",
-      "endTime": "06/06/23-21:30:53",
-      "timeParking": "1"
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 2,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 3,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 4,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 5,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 6,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 7,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 8,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 9,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 10,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 11,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 12,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 13,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 14,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 15,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 16,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 17,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 18,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 19,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 20,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 21,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 22,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 23,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 24,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 25,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 26,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 27,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 28,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 29,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 30,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 31,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 32,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 33,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 34,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 35,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 36,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 37,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 38,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 39,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
+    },
+    {
+      "id": 40,
+      "driver": "nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "-",
+      "endTime": "-",
+      "timeParking": "-"
     }
   ]
 }
