@@ -4,6 +4,11 @@
   align-items: center;
 }
 
+.title {
+  size: 300px;
+  font-size: xxx-large;
+}
+
 .mat-p{
   font-family: Roboto;
   font-size: x-large;
@@ -22,7 +27,7 @@
   align-items: center;
 }
 .profile-container{
-  background-color: #2455A5;
+  background-color: #00040a;
   margin-left: 200px;
   margin-right: 200px;
 }
