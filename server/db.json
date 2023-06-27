@@ -1,8 +1,35 @@
 {
-  "slot": [
+  "slots": [
     {
       "id": 1,
       "driver": "Barack Obama",
+      "status": "Busy",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "06/06/23-20:21:54",
+      "endTime": "06/06/23-21:30:53",
+      "timeParking": "1"
+    },
+    {
+      "id": 2,
+      "driver": "Ray Kroc",
+      "status": "Busy",
+      "lastChange": "06/06/23-20:21:54",
+      "startTime": "06/06/23-20:21:54",
+      "endTime": "06/06/23-21:30:53",
+      "timeParking": "1"
+    },
+    {
+      "id": 3,
+      "driver": "Nothing",
+      "status": "Available",
+      "lastChange": "06/06/23-20:21:00",
+      "startTime": "06/06/23-20:21:00",
+      "endTime": "-",
+      "timeParking": "0"
+    },
+    {
+      "id": 4,
+      "driver": "Ray Kroc",
       "status": "Busy",
       "lastChange": "06/06/23-20:21:54",
       "startTime": "06/06/23-20:21:54",

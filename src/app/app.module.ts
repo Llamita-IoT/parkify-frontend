@@ -18,12 +18,14 @@ import { ManagerProfileComponent } from './manager-profile/pages/manager-profile
 import {MatCardModule} from "@angular/material/card";
 import {MatListModule} from "@angular/material/list";
 import {MatLegacyListModule} from "@angular/material/legacy-list";
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    ManagerProfileComponent
+    ManagerProfileComponent,
+    LoginComponent
   ],
   imports: [
     AppRoutingModule,
