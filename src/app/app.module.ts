@@ -18,6 +18,7 @@ import { ManagerProfileComponent } from './manager-profile/pages/manager-profile
 import {MatCardModule} from "@angular/material/card";
 import {MatListModule} from "@angular/material/list";
 import {MatLegacyListModule} from "@angular/material/legacy-list";
+import {MatProgressBarModule} from "@angular/material/progress-bar";
 
 @NgModule({
   declarations: [
@@ -25,22 +26,23 @@ import {MatLegacyListModule} from "@angular/material/legacy-list";
     DashboardComponent,
     ManagerProfileComponent
   ],
-  imports: [
-    AppRoutingModule,
-    BrowserModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    MatButtonModule,
-    RouterLink,
-    MatDividerModule,
-    RouterOutlet,
-    MatTableModule,
-    MatSortModule,
-    MatIconModule,
-    MatPaginatorModule,
-    MatCardModule,
-    MatListModule
-  ],
+    imports: [
+        AppRoutingModule,
+        BrowserModule,
+        BrowserAnimationsModule,
+        MatToolbarModule,
+        MatButtonModule,
+        RouterLink,
+        MatDividerModule,
+        RouterOutlet,
+        MatTableModule,
+        MatSortModule,
+        MatIconModule,
+        MatPaginatorModule,
+        MatCardModule,
+        MatListModule,
+        MatProgressBarModule
+    ],
   providers: [DashboardService],
   bootstrap: [AppComponent]
 })

@@ -3,7 +3,7 @@ export interface Slot {
   driver: string;
   status: string;
   lastChange: string;
-  startTime: string;
-  endTime: string;
-  timeParking: string;
+  startTime?: string;
+  endTime?: string;
+  timeParking?: string;
 }
