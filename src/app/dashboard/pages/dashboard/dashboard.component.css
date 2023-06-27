@@ -5,6 +5,7 @@
   margin-right: 200px;
   padding-block-end: 30px;
   padding-block-start: 30px;
+  text-align: center;
 }
 .title {
   size: 300px;
@@ -48,4 +49,15 @@ tr.editable-row {
 .img-status{
   height: auto;
   margin-left: 30px;
+  align-content: end;
+}
+.mat-mdc-card-header {
+  display: flex;
+  justify-content: right;
+}
+.mat-mdc-card-header-text {
+  min-width: 200px !important;
+}
+mat-card {
+  margin-bottom: 20px;
 }

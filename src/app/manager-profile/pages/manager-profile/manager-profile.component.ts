@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 export class ManagerProfileComponent {
   manager = {
     managerName : 'Juanito Alimaña',
-    parkingSlots : 40,
+    parkingSlots : 25,
     costPerHour : 7,
     address : 'Av. Salaverry 258',
     reference : 'Al costado de campo de marte'

@@ -54,6 +54,18 @@ export class DashboardComponent {
 
     return formattedTime;
   }
+
+  getCostParking(time:string){
+    const partesHora: string[] = time.split(':');
+    let horas: number = parseInt(partesHora[0], 10);
+    const minutos: number = parseInt(partesHora[1], 10);
+    if (minutos > 5) {
+      horas += 1;
+    }
+    const costParking = horas*7;
+    return costParking;
+  }
+
   slots: Slot[] =[
     {
       id: 0,
@@ -63,7 +75,7 @@ export class DashboardComponent {
     },
     {
       id: 1,
-      status: 'available',
+      status: 'busy',
       lastChange: '11:45',
       driver: 'Jane Smith',
     },
@@ -88,8 +100,8 @@ export class DashboardComponent {
     {
       id: 5,
       status: 'available',
-      lastChange: '12:35',
-      driver: 'David Wilson',
+      lastChange: '',
+      driver: '',
     },
     {
       id: 6,
@@ -100,8 +112,8 @@ export class DashboardComponent {
     {
       id: 7,
       status: 'available',
-      lastChange: '9:10',
-      driver: 'Robert Smith',
+      lastChange: '',
+      driver: '',
     },
     {
       id: 8,
@@ -112,8 +124,8 @@ export class DashboardComponent {
     {
       id: 9,
       status: 'available',
-      lastChange: '13:40',
-      driver: 'Daniel Anderson',
+      lastChange: '',
+      driver: '',
     },
     {
       id: 10,
@@ -124,20 +136,20 @@ export class DashboardComponent {
     {
       id: 11,
       status: 'available',
-      lastChange: '2:30',
-      driver: 'William Johnson',
+      lastChange: '',
+      driver: '',
     },
     {
       id: 12,
       status: 'reserved',
       lastChange: '15:05',
-      driver: 'Olivia Brown',
+      driver: 'Maximo Rojas',
     },
     {
       id: 13,
       status: 'available',
-      lastChange: '7:20',
-      driver: 'James Wilson',
+      lastChange: '',
+      driver: '',
     },
     {
       id: 14,
@@ -148,8 +160,8 @@ export class DashboardComponent {
     {
       id: 15,
       status: 'available',
-      lastChange: '8:50',
-      driver: 'Liam Johnson',
+      lastChange: '',
+      driver: '',
     },
     {
       id: 16,
@@ -159,7 +171,7 @@ export class DashboardComponent {
     },
     {
       id: 17,
-      status: 'available',
+      status: 'busy',
       lastChange: '10:30',
       driver: 'Noah Johnson',
     },
@@ -174,6 +186,36 @@ export class DashboardComponent {
       status: 'reserved',
       lastChange: '13:20',
       driver: 'Mia Wilson',
+    },
+    {
+      id: 20,
+      status: 'busy',
+      lastChange: '10:30',
+      driver: 'Noah Johnson',
+    },
+    {
+      id: 21,
+      status: 'busy',
+      lastChange: '12:45',
+      driver: 'Omar Alvarado',
+    },
+    {
+      id: 22,
+      status: 'reserved',
+      lastChange: '13:20',
+      driver: 'Piero Palomino',
+    },
+    {
+      id: 23,
+      status: 'available',
+      lastChange: '',
+      driver: '',
+    },
+    {
+      id: 24,
+      status: 'busy',
+      lastChange: '12:45',
+      driver: 'Jorge Tafur',
     },
   ];
 
