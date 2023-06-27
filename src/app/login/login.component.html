@@ -1,1 +1,21 @@
-<p>login works!</p>
+<div class="start">
+  <div class="login">
+    <mat-spinner dianeter="50"></mat-spinner>
+    <form [formGroup]="form" (ngSubmit)="LogInForm()">
+      <img src="./assets/picture/logo.png" width="50%">
+      <h5>login</h5>
+      <mat-form-field class="datas" apperance="fill">
+        <mat-label>UserName</mat-label>
+        <input type="text" matInput autocomplete="off" formControlName="usuario">
+      </mat-form-field>
+
+      <mat-form-field class="datas" apperance="fill">
+        <mat-label>Password</mat-label>
+        <input type="password" matInput autocomplete="off" formControlName="password">
+      </mat-form-field>
+      <br>
+      <button class="datas button" mat-raised-button color="primary" [disabled]="form.invalid">Log in</button>
+    </form>
+
+  </div>
+</div>

@@ -1,4 +1,12 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "userName": "hilary@gmail.com",
+      "password": "123456"
+    }
+  ],
+
   "slots": [
     {
       "id": 1,
@@ -7,7 +15,8 @@
       "lastChange": "06/06/23-20:21:54",
       "startTime": "06/06/23-20:21:54",
       "endTime": "06/06/23-21:30:53",
-      "timeParking": "1"
+      "timeParking": "1",
+      "userId": "1"
     },
     {
       "id": 2,
@@ -16,7 +25,8 @@
       "lastChange": "06/06/23-20:21:54",
       "startTime": "06/06/23-20:21:54",
       "endTime": "06/06/23-21:30:53",
-      "timeParking": "1"
+      "timeParking": "1",
+      "userId": "1"
     },
     {
       "id": 3,
@@ -25,7 +35,8 @@
       "lastChange": "06/06/23-20:21:00",
       "startTime": "06/06/23-20:21:00",
       "endTime": "-",
-      "timeParking": "0"
+      "timeParking": "0",
+      "userId": "1"
     },
     {
       "id": 4,
@@ -34,7 +45,8 @@
       "lastChange": "06/06/23-20:21:54",
       "startTime": "06/06/23-20:21:54",
       "endTime": "06/06/23-21:30:53",
-      "timeParking": "1"
+      "timeParking": "1",
+      "userId": "1"
     }
   ]
 }
