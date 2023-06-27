@@ -2,29 +2,34 @@
   <h1 class="title" style="text-align: center;color: white"> MANAGER PROFILE </h1>
   <mat-card class="mat-card" style="text-align: center">
     <mat-card-title>
-      <img imageClass="mat-image-circle" src="https://picsum.photos/200/300" alt="Photo of Profile" width="275"
+      <img imageClass="mat-image-circle" src="./assets/picture/profile.png" alt="Photo of Profile" width="275"
            height="275">
     </mat-card-title>
     <mat-card-content>
       <mat-list>
         <mat-list-item>
           <mat-icon>person</mat-icon>
-          <span class ="mat-p" matLine> Total Parking Slots: 40</span>
+          <span class ="mat-p" matLine> Manager: {{manager.managerName}}</span>
+        </mat-list-item>
+        <br>
+        <mat-list-item>
+          <mat-icon>local_parking</mat-icon>
+          <span class ="mat-p" matLine> Total Parking Slots: {{manager.parkingSlots}}</span>
         </mat-list-item>
         <br>
         <mat-list-item>
           <mat-icon>attach_money</mat-icon>
-          <span class ="mat-p" matLine> Cost per Hour: s/ 7.00</span>
+          <span class ="mat-p" matLine> Cost per Hour: s/ {{manager.costPerHour}}</span>
         </mat-list-item>
         <br>
         <mat-list-item>
           <mat-icon>location_on</mat-icon>
-          <span class ="mat-p" matLine> Address: Av. Salaverry 258</span>
+          <span class ="mat-p" matLine> Address: {{manager.address}}</span>
         </mat-list-item>
         <br>
         <mat-list-item>
           <mat-icon>location_on</mat-icon>
-          <span class ="mat-p" matLine> Reference: Al costado de campo de marte</span>
+          <span class ="mat-p" matLine> Reference: {{manager.reference}}</span>
         </mat-list-item>
       </mat-list>
     </mat-card-content>
